@@ -9,7 +9,7 @@ function changemsg(){
         i++;
     }
     else{
-        document.getElementById('mes').innerHTML="YOU MESSAGE THE DIAMOND"
+        document.getElementById('mes').innerHTML="YOU MISSED THE DIAMOND"
         document.getElementById("mes").style.color="red"
         document.getElementById("mes").style.fontSize="3em"
         document.getElementById("yes").style.display='none'

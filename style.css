@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+#no:hover{
+    cursor:not-allowed;
+}
+#yes:hover{
+    cursor:pointer;
+    animation-name: des;
+    animation-duration: 2s;
+}
+@keyframes des{
+   0%{background-color: red;}
+   50%{background-color: gray;}
+}
